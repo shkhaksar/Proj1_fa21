@@ -1,6 +1,6 @@
-include <stdlib.h>
-include <string.h>
-include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
 
 void func1(char *src) {
     char *dst = malloc((strnlen_s(src) + 1) * sizeof(char));
